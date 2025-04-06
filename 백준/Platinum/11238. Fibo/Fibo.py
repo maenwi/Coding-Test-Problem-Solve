@@ -38,8 +38,6 @@ def find_gcd(a, b):
     return a
 
 T = int(input())
-gcds = []
-max_gcd = -1
 
 for _ in range(T):
     n, m = map(int,input().split())
