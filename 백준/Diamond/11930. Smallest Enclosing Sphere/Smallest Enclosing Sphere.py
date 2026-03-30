@@ -26,7 +26,7 @@ def solve():
     step = 0.1
     
     # Max Iteration 제한
-    for _ in range(30000):
+    for _ in range(20000):
         max_dist_sq = -1.0
         max_p = points[0]
         
